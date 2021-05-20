@@ -1,38 +1,202 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+:root {
+  --pad-left: 2%;
+  --wide: 88%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+  background-color: hsl(0, 100%, 74%);
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  left: 30%;
+  top: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%); 
+}
+
+.content h1 {
+  width: 200%;
+  color: white;
+  margin-left: 330%;
+  font-size: 50px;
+  line-height: 55px; 
+}
+
+.content p {
+  width: 211%;
+  color: white;
+  margin-left: 330%;
+  font-size: 16px;
+}
+
+.text {
+    color: white;
+    width: 108%;
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 0px 0px;
+    margin-bottom: 0em;
+    margin-left: 310%;
+}
+
+#form {
+    border: 1px solid gray;
+    padding: 3em;
+    padding-bottom: 1em;
+    width: 90%;
+    background-color:white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 0px 0px;
+    margin-left: 310%;
+}
+
+#fname {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+#lname {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+#email {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+#pword {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+button {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 105%; 
+  margin: 10px;
+  margin-left: 1%; 
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 0px 0px;
+  border: none;
+  font-size: 12px;
+}
+
+.terms {
+  width: 268px;
+  margin-left: 15%; 
+  font-size: 8px;
+  color: hsl(246, 25%, 77%);
+}
+
+span {
+  color: hsl(0, 100%, 74%);;
+}
+
+@media only screen and (max-width: 375px) {
+  
+ 
+ main {
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+}
+
+.content {
+  margin-bottom: 18%;
+  height: 88%;
+}
+
+.content h1 {
+  font-size: 30px;
+  margin-right: 145px;
+  width: 88%;
+  line-height: 45px;
+}
+
+.content p {
+  width: 103%;
+  margin-left: 322%;
+  font-size: 12px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.content-2 {
+  height: 146%;
+  margin-top: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text {
+  width: 105%;
+  margin-left: 235%;
+  padding: 1%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#form {
+  padding: 0%;
+  margin-left: 236%;
+  width: 100%;
+  height: 50%;
+  padding-left: 5%;
+  padding-bottom: 32%;
 }
 
-.App-link {
-  color: #61dafb;
+#fname {
+  padding-left: var(--pad-left);
+  width: var(--wide);
+  margin-top: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#lname {
+  padding-left: var(--pad-left);
+  width: var(--wide);
+}
+
+#email {
+  padding-left: var(--pad-left);
+  width: var(--wide);
+}
+
+#pword {
+  padding-left: var(--pad-left);
+  width: var(--wide);
+}
+
+button {
+  width: 94%;
+}
+
+.terms {
+  margin-left: 0%;
+  text-align: center;
+  margin-top: 1%;
+}
+
 }
