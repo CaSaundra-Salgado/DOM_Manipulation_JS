@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DOM_Manipulation_JS/static/css/main.e8a8ee55.chunk.css",
+    "main.js": "/DOM_Manipulation_JS/static/js/main.c9717140.chunk.js",
+    "main.js.map": "/DOM_Manipulation_JS/static/js/main.c9717140.chunk.js.map",
+    "runtime-main.js": "/DOM_Manipulation_JS/static/js/runtime-main.5ecd77ce.js",
+    "runtime-main.js.map": "/DOM_Manipulation_JS/static/js/runtime-main.5ecd77ce.js.map",
+    "static/js/2.7844b3ce.chunk.js": "/DOM_Manipulation_JS/static/js/2.7844b3ce.chunk.js",
+    "static/js/2.7844b3ce.chunk.js.map": "/DOM_Manipulation_JS/static/js/2.7844b3ce.chunk.js.map",
+    "static/js/3.86855904.chunk.js": "/DOM_Manipulation_JS/static/js/3.86855904.chunk.js",
+    "static/js/3.86855904.chunk.js.map": "/DOM_Manipulation_JS/static/js/3.86855904.chunk.js.map",
+    "index.html": "/DOM_Manipulation_JS/index.html",
+    "static/css/main.e8a8ee55.chunk.css.map": "/DOM_Manipulation_JS/static/css/main.e8a8ee55.chunk.css.map",
+    "static/js/2.7844b3ce.chunk.js.LICENSE.txt": "/DOM_Manipulation_JS/static/js/2.7844b3ce.chunk.js.LICENSE.txt",
+    "static/media/bg-intro-desktop.059183ee.png": "/DOM_Manipulation_JS/static/media/bg-intro-desktop.059183ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ecd77ce.js",
+    "static/js/2.7844b3ce.chunk.js",
+    "static/css/main.e8a8ee55.chunk.css",
+    "static/js/main.c9717140.chunk.js"
+  ]
+}
